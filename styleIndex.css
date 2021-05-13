@@ -1,0 +1,98 @@
+.photoIndex{
+	border-radius: 0% 50% 50% 0%;
+	width:70%;
+	float: left;	
+}
+
+.title{
+	font-family:Courier New, monospace; 
+	font-size: 50px; 
+	color:#FFEBCD;
+}
+
+.titleSmall{
+	font-family:Courier New, monospace; 
+	font-size: 35px; 
+	color:#FFEBCD;
+}
+
+.boxIndexOveral{
+	float:left; 
+	margin-left:40px; 
+	height:675px; 
+	margin-bottom:70px;
+}
+
+.boxIndexForText{
+	margin-top:38px; 
+	margin-left:10px; 
+	width:300px;
+}
+
+.iconIndex{
+	width:30px;
+}
+
+.linkIndex {
+	color:#fff;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: Courier New, monospace;
+}
+
+.linkIndex:hover{
+	background-color:#FFE4B5;
+	color:#423126;
+}
+ 
+.descriptoin{
+	color:#fff;
+	font-family: Courier New, monospace;
+	font-size: 15px;
+	margin-left:35px;
+}
+
+.descriptoin1{
+	color:#fff;
+	font-family: Courier New, monospace;
+	font-size: 15px;
+}
+.namePeriod{
+	color:#fff;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: Courier New, monospace;
+}
+
+.linkBook{
+	color:#fff;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: Courier New, monospace;
+}
+.linkBook:hover{
+	text-decoration: underline;
+}
+
+.descriptoinBook{
+	color:#fff;
+	font-family: Courier New, monospace;
+	font-size: 20px;
+	margin-left:35px;
+}
+
+.boxDecriptionBook{
+	width: 1000px;
+	float: left;
+}
+
+.boxCharacterBook{
+	width: 200px;
+	float: left;
+}
+
+.quote{
+	color:#fff;
+	font-size: 20px;
+	font-family: Courier New, monospace;
+}
