@@ -3,7 +3,8 @@
 <link rel="stylesheet" type="text/css" href="styleIndex.css">
 </head>
 <body bgcolor="#423126">
-<p class="title">Цитаты</p>
+<p class="title">Цитаты
+<a class='linkOther'  href=index.php>На главную</a></p>
 <?php
 			
 			require_once "base.php";
@@ -21,6 +22,8 @@
 						$character = get_character_name_by_id($link,$character_id);
 						echo "<a class='linkBook' href=character.php?id=$character_id>$character</a>" . "</br>";
 					}
+				}else{
+				echo "<p class=quote>Пока отсутствуют.</p>";
 				}
 			}
 			
