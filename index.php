@@ -19,6 +19,12 @@
 							}else{
 							echo '<a class="linkOther"  href=enter.php>Вход</a>';
 							echo "<a class='linkOther'  href=registration.php>Регистрация</a>";
+							if($_SESSION["error"]==1){
+							echo '</br><font class = descriptoinBook style="float: right;">Вы ввели неправильный пароль ';
+							}
+							if($_SESSION["error"]==2){
+							echo '</br><font class = descriptoinBook style="float: right;">Вы уже зарегистрированны ';
+							}
 						}
 					?>
 					

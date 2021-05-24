@@ -307,4 +307,15 @@
 		}
 		return false;
 	}
+	
+	function get_user_password_by__login($link, $login){
+		$sql = "SELECT password FROM user WHERE login='$login'";
+		$result = $link->query($sql);
+		if ($result->num_rows > 0) {
+			while($row = $result->fetch_assoc()) {
+				return $row["password"];
+			}
+		}
+		return false;
+	}
 ?>					
